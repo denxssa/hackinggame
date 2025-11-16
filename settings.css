@@ -1,0 +1,95 @@
+/*font stuff */
+@font-face {
+    font-family: Tiny5-Regular;
+    src: url(fonts/Tiny5-Regular.ttf);
+}
+#settings{
+    font-family: Tiny5-Regular;
+    font-size: 35px;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 0.1px rgb(29, 196, 0);
+    text-shadow: 3px 3px 5px rgb(16, 109, 0);
+    text-align: center;
+}
+
+
+/*inside border*/
+#musicv{
+    font-family: Tiny5-Regular;
+    -webkit-text-stroke: 0.1px rgb(29, 196, 0);
+    color: green;
+    text-align: center;
+    margin: 10px;
+}
+#sfx{
+    font-family: Tiny5-Regular;
+    -webkit-text-stroke: 0.1px #03b800;
+    color: green;
+    text-align: center;
+    margin: 10px;
+}
+#language{
+    font-family: Tiny5-Regular;
+    -webkit-text-stroke: 0.1px #03b800;
+    color: green;
+    text-align: center;
+    margin: 10px;
+}
+select{
+    width: 50%;
+    padding: 10px;
+    border: 2px, solid #03b800;
+    background-color: rgb(0, 0, 0);
+    color: #03b800;
+    border-radius: 5px;
+    font-family: Tiny5-Regular;
+    outline: none;
+    cursor: pointer;
+}
+#abtus{
+    width: 50%;
+    padding: 10px;
+    color: #03b800;
+    background-image: url(settings\ bg.gif);
+    border: 2px solid #03b800;
+    font-family: Tiny5-Regular;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#return{
+    width: 50%;
+    padding: 10px;
+    color: #03b800;
+    background-image: url(settings\ bg.gif);
+    border: 2px solid #03b800;
+    font-family: Tiny5-Regular;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/*border stuff*/
+.border{
+
+   
+    width: 90%;
+    margin: 20px auto;
+    border: 3px solid #03b800;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    padding: 4vh, 3vw;
+    min-height: 75vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*per volume finish later*/
+.-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    background: url(assets/settings/drag\ bar.png);/*DO THIS SHIT LATER CUZ WTF*/
+}
