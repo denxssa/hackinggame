@@ -54,44 +54,120 @@
 }
 
 
-/* about us page */
+/* about us page*/
 @font-face {
     font-family:Tiny5-Regular;
 src: url("fonts/Tiny5-Regular.ttf");
 
 }
-#aboutbackground{
+#aboutbackground {
+    position: relative;
+    min-height: 100vh;
 
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("fallingbits.gif") no-repeat center center fixed;
+
+    background-size: cover;
 }
-#aboutus{
+
+
+#aboutbackground > * {
+    position: relative;
+    z-index: 1;
+}
+
+
+#aboutUs{
     color: #00ff00;
-    stroke: #036d03;
+     -webkit-text-stroke: #004400;
     font-family: Tiny5-Regular;
+    align-items: center;
+    justify-content: center;
+    margin-left: 580px;
+    font-size: 400%;
+     letter-spacing: 20px;
+     text-shadow: 
+        -2px -2px 0 #003d00,
+         2px -2px 0 #004800,
+        -2px  2px 0 #fafefa,
+         2px  2px 0 #003c00;
+          
 }
 
-.green-box{
+.green-box {
+ width: 700px;     
+    height: 440px;    
+    padding: 20px;
+    background-color: rgb(15, 0, 0); 
+    border: 2px solid rgb(0, 244, 0);
 
-margin: auto;
-padding: auto;
-display: block;
+    box-sizing: border-box;
 
+    margin-left: 750px;
+    margin-top: -500px;
+    box-shadow: 0 0 20px rgb(0, 244, 0);
+}
+#ourstory{
+    display: flex;            
+    align-items: center;         
+    justify-content: center;     
+    text-align: center;    
+    font-size: 200%;     
 }
 
 .white-text{
 color: aliceblue;
+font-size: 150%;
 }
 
-#gettoknowus-text{
-    color: #036d03;
-    stroke: #036d03;
-    width: auto;
+#gettoknowus-text {
+    text-align: center;      
+    margin-top: 20px;     
+    font-size: 130%;    
 }
+
+#gettoknowus-text h3 {
+    color: #0efb41;          
+    margin-bottom: 12px;      
+}
+
+#gettoknowus-text .social-links a {
+    color: #90e1ff;        
+    text-decoration: none;    
+    margin: 0 12px;           
+    transition: color 0.3s, text-decoration 0.3s; 
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#gettoknowus-text .social-links a:hover {
+    color: rgb(8, 0, 255);  
+    text-decoration: underline; 
+}
+
 .linktree-section{
+padding: auto;
+display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 750px;
+    margin-top: -550px;
 
+}
+#teamhehe{
+    margin-left:10%;
 }
 
 
-
+#rightsreserved{
+    color: aliceblue;
+     margin-top: 209px;
+  display: flex;
+    justify-content: center; 
+    align-items: center;   
+  
 
 /* logIn and signup */
 .login{
@@ -183,8 +259,7 @@ color: aliceblue;
 
 }
 #loginbackground{
-     /* background-image: linear-gradient(to top, rgb(2, 2, 15), rgb(1, 105, 20)); */
-    /* background-color: rgb(0, 0, 0); */
+   
     background-size: cover;   
     background-repeat: no-repeat;
     
@@ -211,4 +286,168 @@ body {
     
 }
 
+#avatar1, #avatar2 {
+    width: 900px;  
+    height: auto;
+}
+}
+@media (max-width: 600px) {
 
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #avatar1 {
+    width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .loginform {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+/* contact us */
+#contactus{        
+    padding: 0;       
+    border: none;       
+    margin: 0;                 
+    background: linear-gradient(to bottom, rgb(8, 61, 16), black);
+    height: 100vh;
+}
+
+
+#contactushere {
+    border: 3px solid #000000;             
+    box-shadow: 0 0 15px #00ff00;         
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(10, 10, 10);    
+    color: #00ff00;                         
+    font-family: monospace;
+    width: 500px;
+    height: 430px;                           
+    margin: 50px auto;  
+    align-items: center;  
+    justify-content: center;      
+    margin-top: 10%;           
+}
+
+
+#contactushere input,
+#contactushere select,
+#contactushere textarea {
+    background-color: rgb(20, 20, 20);      
+    color: #e3e3e3;                      
+    border: 2px solid #00ff00;            
+    padding: 0.2%;
+    border-radius: 2.5%;
+    width: 100%;                           
+    margin-top: 1.25;
+    font-family:  monospace;
+    
+}
+
+
+#contactushere input:focus,
+#contactushere select:focus,
+#contactushere textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px #d4d4d4;
+}
+
+
+#contactushere textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(20,20,20);
+    color: #ffffff;
+    border: 2px solid #00ff00;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: monospace;
+    resize: vertical;
+    height: 150px; 
+}
+#submitofcontact {
+    width: 80px !important;
+    height: 40px;
+    padding: 0;
+    min-width: 0;
+    border-radius: 10px !important;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+}
+
+
+/* website */ 
+/* projektet */
+#projects h3 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.project-scroll {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px;
+    scroll-behavior: smooth;
+    scrollbar-width: thin; 
+}
+
+.project-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+
+.project-scroll::-webkit-scrollbar-thumb {
+    background: green;
+    border-radius: 5px;
+}
+
+
+.project-card {
+    flex: 0 0 220px;
+    background: #0e0e0e;
+    border: 2px solid rgb(249, 203, 0);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: 0.3s ease;
+    padding-bottom: 10px;
+  
+}
+
+.project-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 2px solid  rgb(249, 203, 0);
+    
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgb(255, 230, 0);
+    cursor: pointer;
+}
+
+#backgroundofwebsite{
+    background-color: #ffffff;
+}
+/* website not finished but main things are in there */
