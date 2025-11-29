@@ -1,0 +1,105 @@
+
+body#contactus {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0f4ff, #e6f0ff);
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+form#contactushere {
+    background-color: #ffffff;
+    padding: 50px 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    max-width: 500px;
+    width: 90%;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+form#contactushere:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+}
+
+
+form#contactushere label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 1rem;
+    color: #222222;
+}
+
+
+form#contactushere input[type="text"],
+form#contactushere select,
+form#contactushere textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fefefe;
+}
+
+form#contactushere input[type="text"]:focus,
+form#contactushere select:focus,
+form#contactushere textarea:focus {
+    border-color: #5b9bff;
+    box-shadow: 0 0 8px rgba(91,155,255,0.3);
+    outline: none;
+}
+
+
+form#contactushere select {
+    appearance: none; 
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2210%22%20height%3D%227%22%20viewBox%3D%220%200%2010%207%22%20xmlns%3D%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M0%200l5%207%205-7H0z%22%20fill%3D%22%23999%22/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px 7px;
+}
+
+
+form#contactushere input#submitofcontact {
+    display: block;
+    margin: 20px auto 0 auto;
+    background: linear-gradient(135deg, #5b9bff, #1e70ff);
+    color: #ffffff;
+    padding: 14px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(30,112,255,0.4);
+}
+
+form#contactushere input#submitofcontact:hover {
+    background: linear-gradient(135deg, #1e70ff, #5b9bff);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(30,112,255,0.5);
+}
+
+
+@media (max-width: 600px) {
+    form#contactushere {
+        padding: 30px 20px;
+    }
+
+    form#contactushere input#submitofcontact {
+        width: 100%;
+    }
+}

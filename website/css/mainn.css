@@ -1,0 +1,115 @@
+.box{
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+padding: 10px;
+background-color: rgb(253, 255, 255);
+  position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+.logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 3%;
+}
+.box ul{
+      display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.box a{
+    text-decoration:none;
+    color: black;
+}
+.box a:hover{
+    color: rgb(127, 127, 127);
+}
+
+
+
+video{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+      position: relative; 
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+}
+.background-video {
+    position: relative;
+    width: 100%;
+    height: 100vh;        
+    margin-top: 0;          
+    overflow: hidden;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; 
+}
+.paragraph1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 150%;
+  color: white;
+  margin: 0; 
+  text-align: center;  
+}
+.header1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 250%;
+  color: white;
+  margin: 0;
+}
+
+.button1 {
+  background-color: black;
+  color: aliceblue;
+
+  padding: 10px 20px;
+  font-size: 170%;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.intro{
+     width: 100%;        
+  height: 700px;      
+  object-fit: cover; 
+  display: block; 
+}
+
+.big-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.big-image {
+  width: 100%;        
+  height: 700px;      
+  object-fit: cover;  
+  display: block;
+}
+
+footer {
+  background-color: black;
+  color: #fff8f8;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
