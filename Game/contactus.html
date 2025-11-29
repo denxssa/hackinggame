@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="contactus">
+<form id="contactushere">
+      <label for="username">Username:</label><br>
+  <input type="text" class="username" placeholder="type your Username here" ><br><br>
+  <label for="gmail">Gmail:</label><br>
+  <input type="text" class="gmail" placeholder="type your gmail here""><br><br>
+<label for="subject">Subject / Topic:</label>
+<select id="subject" name="subject">
+    <option value="" disabled selected>Select a topic</option>
+    <option value="bug">Bug Report</option>
+    <option value="feature">Feature Request</option>
+    <option value="account">Account / Login Issue</option>
+    <option value="payment">Payment Issue</option>
+    <option value="feedback">General Feedback</option>
+    <option value="other">Other</option>
+</select>
+<br><br>
+<label for="message">Message / Feedback:</label>
+<br>
+<textarea id="message" name="message" rows="6" cols="50" placeholder="Write your message here..."></textarea><br><br><br>
+
+     <input type="submit" value="Submit" id="submitofcontact">
+    
+</form>
+
+</body>
+</html>

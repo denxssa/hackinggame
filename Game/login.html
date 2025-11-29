@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="frame11.png"         id="loginbackground">
+  <div class="box">
+    <form class="form">
+        <h2 class="login">Log in</h2>
+        <label for="Username">Username</label><br>
+        <input type="text" id="username1" placeholder="type your username..."><br><br>
+        <label for="Password">Password</label><br>
+        <input type="text" id="password1" placeholder="type your password..."><br><br>
+      
+        <h6 id="forgotpass">Forgot password?</h6>
+
+    <input type="submit" value="Submit" class="submit">
+    
+ <h6 id="la">Don't have an account? <span class="signup-text">Sign up</span></h4>
+
+ </form>
+   
+   
+</div>
+<script>
+document.querySelectorAll(".form").forEach(form => {
+    form.addEventListener("submit", function(e) {
+        e.preventDefault();
+        window.location.href = "index.html";
+    });
+});
+
+</script>
+</body>
+</html>

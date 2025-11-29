@@ -1,0 +1,53 @@
+
+body#aboutbackground {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; 
+    color: #333333;
+}
+
+
+h1#aboutUs {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: #222222;
+    letter-spacing: 2px;
+}
+
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 50px;
+}
+
+
+#teamhehe {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+.box {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+h2#ourstory.white-text {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #222222
+}
