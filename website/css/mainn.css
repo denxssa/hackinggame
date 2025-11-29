@@ -62,18 +62,26 @@ video{
   align-items: center;
   gap: 30px; 
 }
-.paragraph1{
+.main p{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 150%;
-  color: white;
+  font-size: 80%;
+  
   margin: 0; 
   text-align: center;  
+  color: white;
+text-shadow:
+  1px 1px 3px #000;
+
+
 }
-.header1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.main {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 250%;
   color: white;
   margin: 0;
+  text-shadow:
+  0 0 8px #000,
+  0 0 15px #000;
 }
 
 .button1 {
@@ -106,6 +114,224 @@ video{
   display: block;
 }
 
+.company {
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; 
+}
+.company h1 {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 250%;
+  color: white;
+  margin: 0;
+  text-shadow:
+  0 0 8px #000,
+  0 0 15px #000;
+
+}
+.company p {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 150%;
+  color: white;
+  margin: 0; 
+  text-align: center; 
+  text-shadow:
+  0 0 8px #000,
+  0 0 15px #000;
+
+}
+.company button{
+ background-color: black;
+  color: aliceblue;
+
+  padding: 10px 20px;
+  font-size: 170%;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.kirby {
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; 
+}
+.kirby h1 {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 350%;
+  color: white;
+  margin: 0;
+ 
+
+   text-shadow:
+  0 0 8px #000,
+  0 0 15px #000;
+
+}
+.kirby p {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 180%;
+  color: white;
+  margin: 0; 
+  text-align: center; 
+ text-shadow:
+  0 0 8px #000,
+  0 0 15px #000;
+
+}
+.hackace {
+  position: absolute;
+  top: 390%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; 
+}
+.hackace h1 {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 250%;
+  color: white;
+  margin: 0;
+  text-shadow:
+  0 0 8px #000,
+  0 0 15px #000;
+
+}
+.hackace p {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 150%;
+  color: white;
+  margin: 0; 
+  text-align: center; 
+  text-shadow:
+  0 0 8px #000,
+  0 0 15px #000;
+
+}
+.hackace button{
+ background-color: black;
+  color: aliceblue;
+
+  padding: 10px 20px;
+  font-size: 170%;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.supermario {
+  position: absolute;
+  top: 470%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; 
+}
+.supermario h1 {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 250%;
+  color: white;
+  margin: 0;
+  text-shadow:
+  0 0 8px #000,
+  0 0 15px #000;
+
+}
+.supermario p {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 150%;
+  color: white;
+  margin: 0; 
+  text-align: center; 
+  text-shadow:
+  0 0 8px #000,
+  0 0 15px #000;
+
+}
+.supermario button{
+ background-color: black;
+  color: aliceblue;
+
+  padding: 10px 20px;
+  font-size: 170%;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+
+.team {
+  position: absolute;
+  top: 220%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  
+  gap: 30px; 
+}
+.team h1 {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 250%;
+  color: white;
+  margin: 0;
+  text-shadow:
+  0 0 8px #000,
+  0 0 15px #000;
+text-align: center;
+justify-content: center;
+}
+.team p {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 130%;
+  color: white;
+   margin: 0 auto;       
+  text-align: center;   
+  max-width: 600px;      
+  text-shadow:
+    0 0 8px #000,
+    0 0 15px #000;
+  line-height: 1.6; 
+transform: translateX(-100px);
+}
+.team button{
+ background-color: black;
+  color: aliceblue;
+
+  padding: 10px 20px;
+  font-size: 170%;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+
+  display: block;          
+  width: 150px;             
+  margin: 0 auto;          
+  text-align: center;}
 footer {
   background-color: black;
   color: #fff8f8;
