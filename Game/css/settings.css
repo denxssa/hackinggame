@@ -50,7 +50,7 @@ select{
     width: 50%;
     padding: 10px;
     color: #03b800;
-    background-image: url(settings\ bg.gif);
+    background-image: url("../assets/gifs/settings bg.gif");
     border: 2px solid #03b800;
     font-family: Tiny5-Regular;
     font-size: large;
@@ -61,7 +61,7 @@ select{
     width: 50%;
     padding: 10px;
     color: #03b800;
-    background-image: url(settings\ bg.gif);
+    background-image: url("../assets/gifs/settings bg.gif");
     border: 2px solid #03b800;
     font-family: Tiny5-Regular;
     font-size: large;
